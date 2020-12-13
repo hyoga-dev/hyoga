@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" width="width_device" initial_scale=1.0>
+    <script src=main.js></script>
+
+</head>
+
+<body>
+
+<!-- Turn on light -->
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.jpg'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.jpg'">Turn off the light</button>
+
+<!-- Change text with button -->
+
+<h2> What can javascript do? </h2>
+
+<p id="contoh"> Javascript can change content in html </p>
+
+<button type="button" onclick='document.getElementById("contoh").innerHTML = " Hello broooo "'> Click me!!! </button>
+
+<!-- Change font size -->
+
+<button type = button onclick='document.getElementById("contoh").style.fontSize= "34px"'> Clicl me!! </button>
+
+<!-- Change font color -->
+
+<button type= button onclick='document.getElementById("contoh").style.color= "red" '> Click me!! </button>
+
+<!--  -->
+
+<button type= button onclick='document.getElementById("contoh").style.display= "none" '> Click me!! </button>
+
+<!--  -->
+
+<button type=button onclick='document.getElementById("contoh").style.display= "block"'> Click me!! </button>
+
+<!--  -->
+
+<button type=button onclick="theFunction()" 
+                    onmouseover="this.innerHTML= 'nganu gaes uhauhuhuhhuhuhu'"
+                    onmouseout="this.innerHTML= 'Try it!'"> Try it! </button>
+
+<!-- -->
+
+<h2>JavaScript in Body</h2>
+
+<h1 id="demo"></h1>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+<!--  -->
+
+<p id="demo2"> hallooo gaesss </p>
+
+
+
+
+
+</body>
+</html>
